@@ -7,14 +7,35 @@
 //
 
 import UIKit
+import SnapKit
 
-class ViewController: UIViewController {
-
+class ViewController: UITabBarController{
+    
+    let  nextVc = NextViewController()
+    let  snapkitVc = SpnakitController ()
+    let  tableVc = TableViewController ()
+    let  serviceVc = AppserviceVC ()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        nextVc.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 0)
+        snapkitVc.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 1)
+        tableVc.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 2)
+        serviceVc.tabBarItem = UITabBarItem(tabBarSystemItem: .topRated, tag: 3)
+        let tabBarlist  = [nextVc,snapkitVc,tableVc,serviceVc]
+        
+        viewControllers = tabBarlist
+        
+        viewInit()
     }
+    
+    
+func viewInit(){
+    
 
+    
+}
+  
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

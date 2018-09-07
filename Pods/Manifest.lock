@@ -1,0 +1,40 @@
+PODS:
+  - DynamicColor (4.0.2)
+  - FoldingCell (3.1.4)
+  - RAMPaperSwitch (2.1.0)
+  - Reveal-SDK (4)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - DynamicColor (~> 4.0.2)
+  - FoldingCell
+  - RAMPaperSwitch
+  - Reveal-SDK (from `https://git.coding.net/kakukeme/Reveal-SDK.git`)
+  - SnapKit (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DynamicColor
+    - FoldingCell
+    - RAMPaperSwitch
+    - SnapKit
+
+EXTERNAL SOURCES:
+  Reveal-SDK:
+    :git: https://git.coding.net/kakukeme/Reveal-SDK.git
+
+CHECKOUT OPTIONS:
+  Reveal-SDK:
+    :commit: ffdbc623851467394a99effb2dfced2f61c358f1
+    :git: https://git.coding.net/kakukeme/Reveal-SDK.git
+
+SPEC CHECKSUMS:
+  DynamicColor: c7adcfe871781a2b39877a5774e452ba51b79eb3
+  FoldingCell: 5f8a482ce0502bc0d5a1732782c305e0cefe6f81
+  RAMPaperSwitch: ef08af0400a040c9850e09253280deb77510becb
+  Reveal-SDK: 6504f524a2e7138913251139ba30a03b3da91792
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: fc4182ef0cdf71cbd0b4c8e0c63ac7a7d50ddb06
+
+COCOAPODS: 1.5.3

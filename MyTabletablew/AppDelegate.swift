@@ -15,6 +15,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        let mainPage = ViewController()
+        //let navRoot = UINavigationController(rootViewController: mainPage)
+        //navRoot.navigationBar.isTranslucent = true
+        
+        //let contacts = TableViewController()
+        //contacts.title = "Contacts"
+        
+        //let navigationController = UINavigationController(rootViewController: contacts)
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
+        window?.rootViewController = mainPage
+        window?.makeKeyAndVisible()
         // Override point for customization after application launch.
         return true
     }

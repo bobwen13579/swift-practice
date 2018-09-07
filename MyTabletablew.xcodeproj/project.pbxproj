@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68911BCA7840B21CBD6B3176 /* Pods_MyTabletablewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63EA606F138382FD4146CEF /* Pods_MyTabletablewTests.framework */; };
 		9589921F213E8A25008C3FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589921E213E8A25008C3FFC /* AppDelegate.swift */; };
 		95899221213E8A25008C3FFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95899220213E8A25008C3FFC /* ViewController.swift */; };
 		95899224213E8A25008C3FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95899222213E8A25008C3FFC /* Main.storyboard */; };
 		95899226213E8A2A008C3FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95899225213E8A2A008C3FFC /* Assets.xcassets */; };
 		95899229213E8A2A008C3FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95899227213E8A2A008C3FFC /* LaunchScreen.storyboard */; };
 		95899234213E8A2A008C3FFC /* MyTabletablewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95899233213E8A2A008C3FFC /* MyTabletablewTests.swift */; };
+		9589923F213F6F84008C3FFC /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589923E213F6F84008C3FFC /* NextViewController.swift */; };
+		95899243213FF797008C3FFC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95899242213FF797008C3FFC /* TableViewController.swift */; };
+		958992452140C07E008C3FFC /* MyfantcyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958992442140C07E008C3FFC /* MyfantcyViewCell.swift */; };
+		9589924721414637008C3FFC /* SpnakitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589924621414637008C3FFC /* SpnakitController.swift */; };
+		9589924921414F6B008C3FFC /* AppserviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589924821414F6B008C3FFC /* AppserviceVC.swift */; };
+		A78FB74496BCC56D587D6327 /* Pods_MyTabletablew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B293FD41AB2A1B1E0C35059 /* Pods_MyTabletablew.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F29FCCC14A7305CDC42B9D3 /* Pods-MyTabletablewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTabletablewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTabletablewTests/Pods-MyTabletablewTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B293FD41AB2A1B1E0C35059 /* Pods_MyTabletablew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTabletablew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		886757FA2E2E8DDE1DE1B643 /* Pods-MyTabletablew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTabletablew.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTabletablew/Pods-MyTabletablew.release.xcconfig"; sourceTree = "<group>"; };
 		9589921B213E8A25008C3FFC /* MyTabletablew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTabletablew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9589921E213E8A25008C3FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95899220213E8A25008C3FFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +46,14 @@
 		9589922F213E8A2A008C3FFC /* MyTabletablewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTabletablewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95899233213E8A2A008C3FFC /* MyTabletablewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabletablewTests.swift; sourceTree = "<group>"; };
 		95899235213E8A2A008C3FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9589923E213F6F84008C3FFC /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		95899242213FF797008C3FFC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		958992442140C07E008C3FFC /* MyfantcyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyfantcyViewCell.swift; sourceTree = "<group>"; };
+		9589924621414637008C3FFC /* SpnakitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpnakitController.swift; sourceTree = "<group>"; };
+		9589924821414F6B008C3FFC /* AppserviceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppserviceVC.swift; sourceTree = "<group>"; };
+		9EA7FBDF084927A5E578AE2C /* Pods-MyTabletablew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTabletablew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTabletablew/Pods-MyTabletablew.debug.xcconfig"; sourceTree = "<group>"; };
+		C63EA606F138382FD4146CEF /* Pods_MyTabletablewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTabletablewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF7588C54732E81001457E0 /* Pods-MyTabletablewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTabletablewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTabletablewTests/Pods-MyTabletablewTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A78FB74496BCC56D587D6327 /* Pods_MyTabletablew.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +69,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68911BCA7840B21CBD6B3176 /* Pods_MyTabletablewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		757DAB747EE88740031762A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B293FD41AB2A1B1E0C35059 /* Pods_MyTabletablew.framework */,
+				C63EA606F138382FD4146CEF /* Pods_MyTabletablewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8094D502D3C75C5ECD1E4D35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EA7FBDF084927A5E578AE2C /* Pods-MyTabletablew.debug.xcconfig */,
+				886757FA2E2E8DDE1DE1B643 /* Pods-MyTabletablew.release.xcconfig */,
+				DAF7588C54732E81001457E0 /* Pods-MyTabletablewTests.debug.xcconfig */,
+				3F29FCCC14A7305CDC42B9D3 /* Pods-MyTabletablewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		95899212213E8A24008C3FFC = {
 			isa = PBXGroup;
 			children = (
 				9589921D213E8A25008C3FFC /* MyTabletablew */,
 				95899232213E8A2A008C3FFC /* MyTabletablewTests */,
 				9589921C213E8A25008C3FFC /* Products */,
+				8094D502D3C75C5ECD1E4D35 /* Pods */,
+				757DAB747EE88740031762A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +121,15 @@
 			children = (
 				9589921E213E8A25008C3FFC /* AppDelegate.swift */,
 				95899220213E8A25008C3FFC /* ViewController.swift */,
+				9589924621414637008C3FFC /* SpnakitController.swift */,
 				95899222213E8A25008C3FFC /* Main.storyboard */,
 				95899225213E8A2A008C3FFC /* Assets.xcassets */,
 				95899227213E8A2A008C3FFC /* LaunchScreen.storyboard */,
 				9589922A213E8A2A008C3FFC /* Info.plist */,
+				9589923E213F6F84008C3FFC /* NextViewController.swift */,
+				95899242213FF797008C3FFC /* TableViewController.swift */,
+				958992442140C07E008C3FFC /* MyfantcyViewCell.swift */,
+				9589924821414F6B008C3FFC /* AppserviceVC.swift */,
 			);
 			path = MyTabletablew;
 			sourceTree = "<group>";
@@ -103,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95899238213E8A2A008C3FFC /* Build configuration list for PBXNativeTarget "MyTabletablew" */;
 			buildPhases = (
+				589C1B318EDF9370F54DA391 /* [CP] Check Pods Manifest.lock */,
 				95899217213E8A25008C3FFC /* Sources */,
 				95899218213E8A25008C3FFC /* Frameworks */,
 				95899219213E8A25008C3FFC /* Resources */,
+				54212C65306ECBC7709F8B02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9589923B213E8A2A008C3FFC /* Build configuration list for PBXNativeTarget "MyTabletablewTests" */;
 			buildPhases = (
+				2C0C5AF124208FED79EA3A60 /* [CP] Check Pods Manifest.lock */,
 				9589922B213E8A2A008C3FFC /* Sources */,
 				9589922C213E8A2A008C3FFC /* Frameworks */,
 				9589922D213E8A2A008C3FFC /* Resources */,
@@ -192,13 +242,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C0C5AF124208FED79EA3A60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTabletablewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54212C65306ECBC7709F8B02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyTabletablew/Pods-MyTabletablew-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DynamicColor/DynamicColor.framework",
+				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMPaperSwitch/RAMPaperSwitch.framework",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-4/iOS/RevealServer.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMPaperSwitch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTabletablew/Pods-MyTabletablew-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		589C1B318EDF9370F54DA391 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTabletablew-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95899217213E8A25008C3FFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				95899221213E8A25008C3FFC /* ViewController.swift in Sources */,
+				9589923F213F6F84008C3FFC /* NextViewController.swift in Sources */,
 				9589921F213E8A25008C3FFC /* AppDelegate.swift in Sources */,
+				958992452140C07E008C3FFC /* MyfantcyViewCell.swift in Sources */,
+				9589924921414F6B008C3FFC /* AppserviceVC.swift in Sources */,
+				9589924721414637008C3FFC /* SpnakitController.swift in Sources */,
+				95899243213FF797008C3FFC /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,15 +476,18 @@
 		};
 		95899239213E8A2A008C3FFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EA7FBDF084927A5E578AE2C /* Pods-MyTabletablew.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N498EG9GSU;
 				INFOPLIST_FILE = MyTabletablew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.MyTabletablew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -374,15 +497,18 @@
 		};
 		9589923A213E8A2A008C3FFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886757FA2E2E8DDE1DE1B643 /* Pods-MyTabletablew.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N498EG9GSU;
 				INFOPLIST_FILE = MyTabletablew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.MyTabletablew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -392,6 +518,7 @@
 		};
 		9589923C213E8A2A008C3FFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF7588C54732E81001457E0 /* Pods-MyTabletablewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -413,6 +540,7 @@
 		};
 		9589923D213E8A2A008C3FFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F29FCCC14A7305CDC42B9D3 /* Pods-MyTabletablewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
